@@ -25,6 +25,7 @@ import agggro from "./company/agggro.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png"
 
 export {
   logo,
@@ -51,4 +52,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  portfolio
 };
