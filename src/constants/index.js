@@ -21,6 +21,8 @@ import {
     portfolio,
     threejs,
   } from "../assets";
+
+  export const feedbackFeature = false;
   
   export const navLinks = [
     {
