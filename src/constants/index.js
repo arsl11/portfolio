@@ -1,28 +1,21 @@
 import {
     mobile,
-    backend,
-    creator,
     web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     git,
     figma,
     docker,
     agggro,
-    carrent,
-    jobit,
-    tripguide,
     portfolio,
     threejs,
+    postgresql,
   } from "../assets";
-
-  export const feedbackFeature = false;
   
   export const navLinks = [
     {
@@ -44,6 +37,10 @@ import {
       title: "React Developer",
       icon: mobile,
     },
+    {
+      title: "Web Developer",
+      icon: web,
+    }
   ];
   
   const technologies = [
@@ -68,12 +65,16 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "NodeJS",
+      icon: nodejs,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgresql
     },
     {
       name: "Three JS",
@@ -110,14 +111,6 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
   ];
   
   const projects = [

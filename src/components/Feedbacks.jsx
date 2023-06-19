@@ -53,10 +53,21 @@ const Feedbacks = () => {
         </motion.div>
       </div>
 
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
-        ))}
+      <div className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7`}>
+        {
+          testimonials.length !== 0 ?
+            testimonials.map((testimonial, index) => (
+              <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+            )) :
+            <div className='w-full flex'>
+              <motion.p
+                variants={fadeIn("", "", 0.1, 1)}
+                className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+              >
+                There will soon be feedback about me here
+              </motion.p>
+            </div>
+        }
       </div>
     </div>
   );
