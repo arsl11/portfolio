@@ -13,8 +13,9 @@ import {
     docker,
     agggro,
     portfolio,
-    threejs,
     postgresql,
+    python,
+    algoritmiсa
   } from "../assets";
   
   export const navLinks = [
@@ -77,10 +78,6 @@ import {
       icon: postgresql
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -92,11 +89,27 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "python",
+      icon: python
+    }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "Python teacher",
+      company_name: "Algoritmica",
+      icon: algoritmiсa,
+      iconBg: "#383e56",
+      date: "March 2021 - May 2021",
+      points: [
+        "Teaching children the syntax, constructs of the python language",
+        "Explaining base algorithms",
+        "Checking and helping with homeworks and classworks"
+      ]
+    },
+    {
+      title: "Frontend Developer",
       company_name: "A 201",
       icon: agggro,
       iconBg: "#383E56",

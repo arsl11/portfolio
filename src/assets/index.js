@@ -3,7 +3,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import mobile from "./mobile.png"
+import mobile from "./mobile.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -15,12 +15,13 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import postgresql from "./tech/postgresql.png"
+import postgresql from "./tech/postgresql.png";
+import python from "./tech/python.png";
 
 import agggro from "./company/agggro.png";
+import algoritmiсa from "./company/algoritmiсa.svg";
 
-import portfolio from "./portfolio.png"
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -38,9 +39,10 @@ export {
   reactjs,
   tailwind,
   typescript,
-  threejs,
   agggro,
   portfolio,
   postgresql,
-  mobile
+  mobile,
+  python,
+  algoritmiсa
 };
