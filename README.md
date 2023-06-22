@@ -1,4 +1,4 @@
-# Personal website
+# Personal 3D website
 
 ### Description
 
@@ -7,6 +7,11 @@ It contains short info, skills, portfolio and contacts
 
 *Used techs:*<br>
 React, Vite, Tailwind, ThreeJS
+
+*Deployed on Vercel:*<br>
+*https://portfolio-arifarsrad.vercel.app/*<br>
+or<br>
+*https://arslanarifullin.vercel.app/*
 
 ### How to run
 
