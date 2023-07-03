@@ -4,6 +4,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import mobile from "./mobile.png";
+import backend from "./backend.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -44,5 +45,6 @@ export {
   postgresql,
   mobile,
   python,
-  algoritmiсa
+  algoritmiсa,
+  backend
 };

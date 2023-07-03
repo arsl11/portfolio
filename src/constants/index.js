@@ -15,7 +15,8 @@ import {
   portfolio,
   postgresql,
   python,
-  algoritmiсa
+  algoritmiсa,
+  backend
 } from "../assets";
 
 export const navLinks = [
@@ -43,7 +44,11 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
-  }
+  },
+  {
+    title: "Python Developer",
+    icon: backend,
+  },
 ];
 
 const technologies = [
@@ -130,9 +135,18 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Portfolio",
-    description:
-      "",
+    name: "3D Portfolio",
+    description: "This is 3D website about me (Arifullin Arslan) as a frontend developer. It contains short info, skills, portfolio and contacts.",
+    statuses: [
+      {
+        name: "Deployed",
+        color: "green-pink-gradient"
+      },
+      {
+        name: "Developed",
+        color: "violet-gradient"
+      }
+    ],
     tags: [
       {
         name: "react",
@@ -150,6 +164,58 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/arsl11/portfolio",
   },
+  {
+    name: "Blog",
+    description: "This is the pet-blog and the first project I have written. I am rewriting it now. You can watch this.",
+    statuses: [
+      {
+        name: "Developed",
+        color: "violet-gradient"
+      }
+    ],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "next",
+        color: "green-text-gradient"
+      },
+      {
+        name: "redux toolkit",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: "",
+    source_code_link: "https://github.com/arsl11/blog"
+  },
+  {
+    name: "Film app",
+    description: "This is a film app. It's being developed as part of the yandex summer development school.",
+    statuses: [
+      {
+        name: "Developed",
+        color: "violet-gradient",
+      }
+    ],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: "",
+    source_code_link: "https://github.com/arsl11/film-app",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
