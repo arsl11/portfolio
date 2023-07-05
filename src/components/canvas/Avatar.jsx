@@ -8,10 +8,10 @@ import { OrbitControls, useAnimations, useFBX, useGLTF } from '@react-three/drei
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useEffect } from 'react';
 import CanvasLoader from '../Loader';
+import { useControls } from 'leva';
 
 export function Avatar(props) {
     const group = useRef();
-
     const { nodes, materials } = useGLTF('./models/avatar.glb');
 
     const { animations: greetingAnimation } = useFBX("animations/Standing Greeting.fbx");
@@ -22,7 +22,7 @@ export function Avatar(props) {
 
     useFrame((state) => {
         group.current.getObjectByName("Head").lookAt(state.camera.position);
-    })
+    });
 
     useEffect(() => {
         actions["Greeting"]?.reset().play();
@@ -50,14 +50,12 @@ export const AvatarCanvas = () => {
     return (
         <Canvas
             shadows
-            camera={{ position: [1, 2, 4], fov: 30 }}
+            camera={{ position: [0, 2, 5], fov: 25 }}
         >
             <Suspense fallback={<CanvasLoader />}>
                 <OrbitControls
                     enableZoom={false}
                     enableRotate={false}
-                    maxPolarAngle={Math.PI / 2}
-                    minPolarAngle={Math.PI / 2}
                 />
                 <ambientLight intensity={1} />
                 <spotLight
@@ -68,7 +66,7 @@ export const AvatarCanvas = () => {
                     castShadow
                     shadow-mapSize={1024}
                 />
-                <group position-y={-1} position-x={1}>
+                <group position-y={-1} scale={1.1}>
                     <Avatar />
                 </group>
             </Suspense>
