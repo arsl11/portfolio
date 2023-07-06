@@ -8,7 +8,6 @@ import { OrbitControls, useAnimations, useFBX, useGLTF } from '@react-three/drei
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useEffect } from 'react';
 import CanvasLoader from '../Loader';
-import { useControls } from 'leva';
 
 export function Avatar(props) {
     const group = useRef();
