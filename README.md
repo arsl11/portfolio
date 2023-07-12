@@ -145,14 +145,18 @@ The second preview the production build on *http://localhost:4173/*
 ## Roadmap
 
 - [ ] Add TypeScript
-  - [ ] Type all files
 - [ ] Add ESLint
 - [ ] Use GitHub API for projects
 - [ ] Redesign
-  - [x] Change computer model
+  - [x] Remove computer model
+  - [x] Add avatar model
+  - [x] Add greeting animation to the avatar model
   - [ ] Change earth model
-  - [ ] Change website pallete
-- [ ] Add Changelog
+  - [ ] Change backgrounds
+  - [ ] Change website color schema
+- [x] Add Changelog
+- [x] Update readme
+- [x] Change project version
 
 See the [open issues](https://github.com/arsl11/portfolio/issues) for a full list of proposed features (and known issues).
 

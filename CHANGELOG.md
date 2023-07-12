@@ -6,7 +6,8 @@
 - Add this changelog :)
 - Change readme
 - Add avatar model
-- Add greeting animation to the avatar model 
+- Add greeting animation to the avatar model
+- Change project version 
 
 ### Removed
 - Remove computer model
