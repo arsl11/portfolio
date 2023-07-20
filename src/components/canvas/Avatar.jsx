@@ -25,7 +25,7 @@ export function Avatar(props) {
 
     useEffect(() => {
         actions["Greeting"]?.reset().play();
-    }, []);
+    }, [actions]);
 
     return (
         <group {...props} ref={group} dispose={null}>
