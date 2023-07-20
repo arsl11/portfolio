@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { githubLink, navLinks } from '../constants';
 import { menu, close, github } from '../assets';
-import logo from '/public/images/logo.svg';
+import logo from '/images/logo.svg';
 
 
 const Navbar = () => {

@@ -11,3 +11,9 @@
 
 ### Removed
 - Remove computer model
+
+## v1.0.1
+
+### Fixed
+- Fix logo displaying in tab
+- Fix several warnings
