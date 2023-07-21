@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -16,10 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 <!-- [![MIT License][license-shield]][license-url] -->
 
@@ -69,29 +73,25 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ### Built With
 
-* [![Vite][Vite.js]][Vite-url]
-* [![React][React.js]][React-url]
-* [![Three][Three.js]][Three-url]
-* [![Tailwind][Tailwind CSS]][Tailwind-url]
-
+- [![Vite][Vite.js]][Vite-url]
+- [![React][React.js]][React-url]
+- [![Three][Three.js]][Three-url]
+- [![Tailwind][Tailwind CSS]][Tailwind-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -100,7 +100,8 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
@@ -118,16 +119,15 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 ### How to run
 
     npm run develop
 
-Builds and runs server in dev mode on *http://localhost:5173/*
+Builds and runs server in dev mode on _http://localhost:5173/_
 
 **or**
 
@@ -135,17 +135,17 @@ Builds and runs server in dev mode on *http://localhost:5173/*
     npm run preview
 
 The first compiles application<br>
-The second preview the production build on *http://localhost:4173/*
+The second preview the production build on _http://localhost:4173/_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [ ] Add TypeScript
-- [ ] Add ESLint
+- [x] Add ESLint
+- [x] Add Prettier
 - [ ] Use GitHub API for projects
 - [ ] Redesign
   - [x] Remove computer model
@@ -162,9 +162,8 @@ See the [open issues](https://github.com/arsl11/portfolio/issues) for a full lis
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -180,8 +179,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE
 ## License
 
@@ -189,9 +186,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Arslan Arifullin - [@arsl11](https://t.me/arsl11) - arifarsrad@gmail.com
@@ -200,18 +196,17 @@ Project Link: [https://github.com/arsl11/portfolio](https://github.com/arsl11/po
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Best README Template](https://github.com/othneildrew/Best-README-Template)
+- [Best README Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/arsl11/portfolio.svg?style=for-the-badge
 [contributors-url]: https://github.com/arsl11/portfolio/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/arsl11/portfolio.svg?style=for-the-badge
@@ -220,18 +215,18 @@ Project Link: [https://github.com/arsl11/portfolio](https://github.com/arsl11/po
 [stars-url]: https://github.com/arsl11/portfolio/stargazers
 [issues-shield]: https://img.shields.io/github/issues/arsl11/portfolio.svg?style=for-the-badge
 [issues-url]: https://github.com/arsl11/portfolio/issues
+
 <!-- [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt -->
 <!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username -->
+
 [product-screenshot]: public/images/screenshot.png
 [Vite.js]: https://img.shields.io/badge/Vite.js-FFF764?style=for-the-badge&logo=vite&logoColor=646CFF
-[Vite-url]: https://vitejs.dev/ 
+[Vite-url]: https://vitejs.dev/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Three.js]: https://img.shields.io/badge/Three.js-fccb06?style=for-the-badge&logo=threedotjs&logoColor=000000
 [Three-url]: https://threejs.org/
 [Tailwind CSS]: https://img.shields.io/badge/tailwind-064fd4?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4
 [Tailwind-url]: https://tailwindcss.com/
-
-
