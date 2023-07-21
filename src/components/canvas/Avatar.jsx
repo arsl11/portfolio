@@ -24,7 +24,7 @@ export function Avatar(props) {
   });
 
   useEffect(() => {
-    actions['Greeting']?.reset().play();
+    actions['Greeting'].reset().play();
   }, [actions]);
 
   return (

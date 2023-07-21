@@ -17,3 +17,11 @@
 ### Fixed
 - Fix logo displaying in tab
 - Fix several warnings
+
+## 1.1.0
+
+### Added or Changed
+- Add ESLint
+- Add Prettier
+- Format all files
+
