@@ -8,8 +8,9 @@ import { styles } from '../styles';
 import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
+import type { Experience } from '../types';
 
-const ExperiecnceCard = ({ experience }) => {
+const ExperienceCard: React.FC<{ experience: Experience }> = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -54,7 +55,7 @@ const Experience = () => {
       <div>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperiecnceCard key={`experience-${index}`} experience={experience} />
+            <ExperienceCard key={`experience-${index}`} experience={experience} />
           ))}
         </VerticalTimeline>
       </div>

@@ -5,7 +5,7 @@
     "plugin:react-hooks/recommended",
     "plugin:import/recommended",
     "plugin:jsx-a11y/recommended",
-    // "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended",
     "eslint-config-prettier"
   ],
   "settings": {
@@ -24,7 +24,10 @@
           ".tsx"
         ]
       }
-    }
+    },
+    "import/ignore": [
+      "node_modules"
+    ]
   },
   "rules": {
     "no-unused-vars": [
@@ -37,8 +40,7 @@
       }
     ],
     "react/react-in-jsx-scope": "off",
-    "react/no-unknown-property": "off",
-    "react/prop-types": "off"
+    "react/no-unknown-property": "off"
   },
   "env": {
     "browser": true,
