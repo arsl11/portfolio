@@ -19,7 +19,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ index, title, icon }) => (
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
-        options={{
+        data-options={{
           max: 45,
           scale: 1,
           speed: 450,

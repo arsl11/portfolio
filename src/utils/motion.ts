@@ -1,4 +1,8 @@
-export const textVariant = (delay?: number) => {
+import { Transition, Tween } from 'framer-motion';
+
+type Direction = 'left' | 'right' | 'up' | 'down' | '';
+
+export const textVariant = (delay?: Transition['delay']) => {
   return {
     hidden: {
       y: -50,
@@ -16,7 +20,12 @@ export const textVariant = (delay?: number) => {
   };
 };
 
-export const fadeIn = (direction, type, delay, duration) => {
+export const fadeIn = (
+  direction: Direction = '',
+  type: Transition['type'],
+  delay: Transition['delay'],
+  duration: Tween['duration'],
+) => {
   return {
     hidden: {
       x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
@@ -37,7 +46,7 @@ export const fadeIn = (direction, type, delay, duration) => {
   };
 };
 
-export const zoomIn = (delay, duration) => {
+export const zoomIn = (delay: Transition['delay'], duration: Tween['duration']) => {
   return {
     hidden: {
       scale: 0,
@@ -56,7 +65,12 @@ export const zoomIn = (delay, duration) => {
   };
 };
 
-export const slideIn = (direction, type, delay, duration) => {
+export const slideIn = (
+  direction: Direction = '',
+  type: Transition['type'],
+  delay: Transition['delay'],
+  duration: Tween['duration'],
+) => {
   return {
     hidden: {
       x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,
@@ -75,7 +89,10 @@ export const slideIn = (direction, type, delay, duration) => {
   };
 };
 
-export const staggerContainer = (staggerChildren, delayChildren) => {
+export const staggerContainer = (
+  staggerChildren?: Transition['staggerChildren'],
+  delayChildren?: Transition['delayChildren'],
+) => {
   return {
     hidden: {},
     show: {
