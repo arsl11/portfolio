@@ -113,7 +113,7 @@ const experiences: Array<Experience> = [
     points: [
       'Teaching children the syntax, constructs of the python language',
       'Explaining base algorithms',
-      'Checking and helping with homeworks and classworks',
+      'Checking and helping with home works and classroom works',
     ],
   },
   {
