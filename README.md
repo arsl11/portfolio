@@ -33,7 +33,7 @@
 
 <h3 align="center">Portfolio</h3>
   <a href="https://github.com/arsl11/portfolio">
-    <img src="public/images/logo.svg" alt="Logo" width="80" height="80">
+    <img src="./src/assets/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <p align="center">
@@ -142,21 +142,21 @@ The second preview the production build on _http://localhost:4173/_
 <!-- ROADMAP -->
 
 ## Roadmap
-
-- [ ] Add TypeScript
+- [ ] Migrate to Next
+- [x] Add TypeScript
 - [x] Add ESLint
 - [x] Add Prettier
-- [ ] Use GitHub API for projects
+- [ ] Use API for projects
 - [ ] Redesign
   - [x] Remove computer model
   - [x] Add avatar model
   - [x] Add greeting animation to the avatar model
-  - [ ] Change earth model
+  - [ ] Change models
   - [ ] Change backgrounds
   - [ ] Change website color schema
 - [x] Add Changelog
 - [x] Update readme
-- [x] Change project version
+- [x] Add semantic versioning
 
 See the [open issues](https://github.com/arsl11/portfolio/issues) for a full list of proposed features (and known issues).
 
