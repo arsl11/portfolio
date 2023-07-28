@@ -7,8 +7,13 @@ import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import { Project } from '../types';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, statuses }) => {
+type ProjectCardProps = Project & {
+  index: number
+};
+
+const ProjectCard: React.FC<ProjectCardProps> = ({ index, name, description, tags, image, source_code_link, statuses }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt

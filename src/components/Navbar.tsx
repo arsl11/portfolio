@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { githubLink, navLinks } from '../constants';
 import { menu, close, github } from '../assets';
-import logo from '../../public/images/logo.svg';
+import logo from '../assets/logo.svg';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -77,9 +77,8 @@ const Navbar = () => {
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`${
-                    active === link.title ? 'text-white' : 'text-secondary'
-                  } font-poppins font-medium cursor-pointer
+                  className={`${active === link.title ? 'text-white' : 'text-secondary'
+                    } font-poppins font-medium cursor-pointer
                       text-[16px]`}
                 >
                   <a

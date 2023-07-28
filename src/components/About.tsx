@@ -6,15 +6,20 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+import { Service } from '../types';
 
-const ServiceCard = ({ index, title, icon }) => (
+type ServiceCardProps = Service & {
+  index: number
+}
+
+const ServiceCard: React.FC<ServiceCardProps> = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
-        options={{
+        data-options={{
           max: 45,
           scale: 1,
           speed: 450,

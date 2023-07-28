@@ -7,9 +7,15 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+interface FormValues {
+  name: string;
+  email: string;
+  message: string;
+}
+
 const Contact = () => {
-  const formRef = useRef();
-  const [form, setForm] = useState({
+  const formRef = useRef<HTMLFormElement>(null);
+  const [form, setForm] = useState<FormValues>({
     name: '',
     email: '',
     message: '',
@@ -17,13 +23,16 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
+  const handleChange = (e: React.ChangeEvent) => {
+    const { name, value } = e.target as typeof e.target & {
+      name: string,
+      value: FormValues[keyof FormValues]
+    }
 
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.SyntheticEvent) => {
     e.preventDefault();
 
     setLoading(true);

@@ -23,5 +23,9 @@
 ### Added or Changed
 - Add ESLint
 - Add Prettier
-- Format all files
+
+## 1.2.0
+
+### Added or Changed
+- Add TypeScript
 
