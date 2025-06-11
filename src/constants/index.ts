@@ -12,11 +12,9 @@ import {
   figma,
   docker,
   agggro,
+  sovcombank,
   portfolio,
   postgresql,
-  python,
-  algoritmiсa,
-  backend,
 } from '../assets';
 import { Experience, Feedback, Project, Service, Technology } from '../types';
 
@@ -45,10 +43,6 @@ const services: Array<Service> = [
   {
     title: 'Web Developer',
     icon: web,
-  },
-  {
-    title: 'Python Developer',
-    icon: backend,
   },
 ];
 
@@ -97,25 +91,9 @@ const technologies: Array<Technology> = [
     name: 'docker',
     icon: docker,
   },
-  {
-    name: 'python',
-    icon: python,
-  },
 ];
 
 const experiences: Array<Experience> = [
-  {
-    title: 'Python teacher',
-    company_name: 'Algoritmica',
-    icon: algoritmiсa,
-    iconBg: '#383e56',
-    date: 'March 2021 - May 2021',
-    points: [
-      'Teaching children the syntax, constructs of the python language',
-      'Explaining base algorithms',
-      'Checking and helping with home works and classroom works',
-    ],
-  },
   {
     title: 'Frontend Developer',
     company_name: 'A 201',
@@ -129,6 +107,19 @@ const experiences: Array<Experience> = [
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
+  {
+    title: 'Frontend Developer',
+    company_name: 'Sovcombank Technologies',
+    icon: sovcombank,
+    iconBg: '#383E56',
+    date: 'August 2023 - May 2024',
+    points: [
+      'Integrated Keycloak into the web applications and supported other Keycloak templates',
+      'Developed SPA using React.js, Next.js, FSD architecture',
+      'Implemented charts (linear and pie charts) using Highcharts.js with real-time filtering',
+      'Improving UX/UI in other projects'
+    ]
+  }
 ];
 
 const feedbacks: Array<Feedback> = [];
@@ -164,59 +155,6 @@ const projects: Array<Project> = [
     ],
     image: portfolio,
     source_code_link: 'https://github.com/arsl11/portfolio',
-  },
-  {
-    name: 'Blog',
-    description:
-      'This is the pet-blog and the first project I have written. I am rewriting it now. You can watch this.',
-    statuses: [
-      {
-        name: 'Developed',
-        color: 'violet-gradient',
-      },
-    ],
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'next',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'redux toolkit',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: '',
-    source_code_link: 'https://github.com/arsl11/blog',
-  },
-  {
-    name: 'Film app',
-    description: "This is a film app. It's being developed as part of the yandex summer development school.",
-    statuses: [
-      {
-        name: 'Developed',
-        color: 'violet-gradient',
-      },
-    ],
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'next',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'typescript',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: '',
-    source_code_link: 'https://github.com/arsl11/film-app',
   },
 ];
 

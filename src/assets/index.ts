@@ -19,7 +19,7 @@ import postgresql from "./tech/postgresql.png";
 import python from "./tech/python.png";
 
 import agggro from "./company/agggro.png";
-import algoritmiсa from "./company/algoritmiсa.svg";
+import sovcombank from "./company/sovcombank.png";
 
 import portfolio from "./portfolio.png";
 
@@ -39,10 +39,10 @@ export {
   tailwind,
   typescript,
   agggro,
+  sovcombank,
   portfolio,
   postgresql,
   mobile,
   python,
-  algoritmiсa,
   backend
 };
